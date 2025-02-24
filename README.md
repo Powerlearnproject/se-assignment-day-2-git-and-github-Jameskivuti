@@ -72,14 +72,15 @@ Branching creates independent lines of development, which is crucial for:
 
 Isolated Feature Development: Developers can work on new features or bug fixes without disturbing the main codebase.
 Safe Experimentation: Changes can be tested on a branch and merged only when stable.
-Typical Workflow:
 
+Typical Workflow:
 Create a Branch: git branch feature-branch or directly checkout a new branch with git checkout -b feature-branch.
 Develop and Commit: Work on your feature and commit changes to the branch.
 Merge: Once the feature is complete and tested, merge the branch back into the main branch (often using a pull request for review).
 Branches thus enable parallel development and help maintain a stable main codebase.
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 Pull requests are a central part of the GitHub workflow.
+
  They:
 Facilitate Code Review: Allow team members to review, comment, and suggest improvements before changes are merged.
 Encourage Discussion: Provide a space for discussing implementation details and potential issues.
